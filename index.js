@@ -83,4 +83,3 @@ const printTime = () => {
 var n = d.toLocaleTimeString('en-US');
 console.log(n)
 }
- printTime()
