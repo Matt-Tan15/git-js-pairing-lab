@@ -57,3 +57,11 @@ function isNegative(num) {
 const triangleArea = (base, height) => {
     return (base*height)/2
 }
+
+//9
+const betweenTwentyAndForty = (num) => {
+    if(num >= 20 && num <= 100){
+        return true
+    }
+    else return false
+}
