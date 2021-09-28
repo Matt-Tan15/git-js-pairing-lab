@@ -76,3 +76,11 @@ function largest(a, b, c) {
     }
     else return c
 }
+
+//11
+const printTime = () => {
+    var d = new Date();
+var n = d.toLocaleTimeString('en-US');
+console.log(n)
+}
+ printTime()
