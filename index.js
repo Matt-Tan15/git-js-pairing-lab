@@ -65,3 +65,14 @@ const betweenTwentyAndForty = (num) => {
     }
     else return false
 }
+
+//10
+function largest(a, b, c) {
+    if (a > b && c < a) {
+        return a
+    }
+    else if (a < b && c < b) {
+        return b
+    }
+    else return c
+}
