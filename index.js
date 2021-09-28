@@ -44,3 +44,12 @@ const add = (num1,num2) => {
    }
    else return sum
 }
+
+//7
+function isNegative(num) {
+    if (num < 0) {
+    return true;
+    } else 
+     return false;
+    } 
+    console.log(isNegative(20))
