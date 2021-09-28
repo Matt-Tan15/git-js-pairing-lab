@@ -10,7 +10,7 @@ function fiveToOneHundred() {
 function multiplesOfThree() {
     for(let i = 1; i<=100; i++){
         if(i % 3 == 0) {
-            console.log(i)
+            console.log(i);
         }
     }
 }
@@ -22,12 +22,12 @@ const multiplesOfThreeOrFive = () => {
             console.log(i);
         }
     }
-}
+};
 
 //4
 function untilNum(num){
     for(let i = 1; i <= num; i++){
-        console.log(i)
+        console.log(i);
     }
 }
 
@@ -40,10 +40,10 @@ const multiply = (num1, num2) => {
 const add = (num1,num2) => {
    let sum = num1 + num2;
    if(num1 === num2) {
-    return sum * 3   
+    return sum * 3;   
    }
-   else return sum
-}
+   else return sum;
+};
 
 //7
 function isNegative(num) {
@@ -55,34 +55,34 @@ function isNegative(num) {
 
 //8
 const triangleArea = (base, height) => {
-    return (base*height)/2
-}
+    return (base*height)/2;
+};
 
 //9
 const betweenTwentyAndForty = (num) => {
     if(num >= 20 && num <= 100){
-        return true
+        return true;
     }
-    else return false
-}
+    else return false;
+};
 
 //10
 function largest(a, b, c) {
     if (a > b && c < a) {
-        return a
+        return a;
     }
     else if (a < b && c < b) {
-        return b
+        return b;
     }
-    else return c
+    else return c;
 }
 
 //11
 const printTime = () => {
     var d = new Date();
 var n = d.toLocaleTimeString('en-US');
-console.log(n)
-}
+console.log(n);
+};
  
 //12
 function isleapYear(year)
