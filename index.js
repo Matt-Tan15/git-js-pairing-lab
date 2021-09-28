@@ -52,4 +52,8 @@ function isNegative(num) {
     } else 
      return false;
     } 
-    console.log(isNegative(20))
+
+//8
+const triangleArea = (base, height) => {
+    return (base*height)/2
+}
