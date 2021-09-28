@@ -83,4 +83,9 @@ const printTime = () => {
 var n = d.toLocaleTimeString('en-US');
 console.log(n)
 }
- printTime()
+ 
+//12
+function isleapYear(year)
+{
+  return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+}
